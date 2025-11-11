@@ -1,0 +1,74 @@
+[
+  {
+    "round": 1,
+    "communities": 3,
+    "total_samples": 50,
+    "average_loss": 1.0354981422424316,
+    "average_accuracy": 0.00402979056040446,
+    "community_metrics": {
+      "Ghana Community": {
+        "loss": 0.9879106283187866,
+        "accuracy": 0.012089371681213379,
+        "samples": 20
+      },
+      "Kenya Community": {
+        "loss": 1.1056336164474487,
+        "accuracy": 0.0,
+        "samples": 10
+      },
+      "Nigeria Community": {
+        "loss": 1.0129501819610596,
+        "accuracy": 0.0,
+        "samples": 20
+      }
+    }
+  },
+  {
+    "round": 2,
+    "communities": 3,
+    "total_samples": 50,
+    "average_loss": 1.0475667715072632,
+    "average_accuracy": 0.0,
+    "community_metrics": {
+      "Ghana Community": {
+        "loss": 1.0400059223175049,
+        "accuracy": 0.0,
+        "samples": 20
+      },
+      "Kenya Community": {
+        "loss": 1.038317322731018,
+        "accuracy": 0.0,
+        "samples": 10
+      },
+      "Nigeria Community": {
+        "loss": 1.0643770694732666,
+        "accuracy": 0.0,
+        "samples": 20
+      }
+    }
+  },
+  {
+    "round": 3,
+    "communities": 3,
+    "total_samples": 50,
+    "average_loss": 1.001897931098938,
+    "average_accuracy": 0.010300119717915853,
+    "community_metrics": {
+      "Ghana Community": {
+        "loss": 1.0027387142181396,
+        "accuracy": 0.0,
+        "samples": 20
+      },
+      "Kenya Community": {
+        "loss": 1.0338554382324219,
+        "accuracy": 0.0,
+        "samples": 10
+      },
+      "Nigeria Community": {
+        "loss": 0.9690996408462524,
+        "accuracy": 0.03090035915374756,
+        "samples": 20
+      }
+    }
+  }
+]

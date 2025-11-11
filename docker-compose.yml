@@ -1,0 +1,35 @@
+networks:
+  community-net:
+    driver: bridge
+services:
+  federated-server:
+    command: sleep infinity
+    container_name: federated-server
+    image: ubuntu:22.04
+    networks:
+    - community-net
+    ports:
+    - 8080:8080
+    volumes:
+    - /home/yethatsjames/community-ai-workspace:/workspace
+  ghana-ai:
+    command: sleep infinity
+    container_name: ghana-ai
+    image: ubuntu:22.04
+    networks:
+    - community-net
+    ports:
+    - 8001:8001
+    volumes:
+    - /home/yethatsjames/community-ai-workspace:/workspace
+  kenya-ai:
+    command: sleep infinity
+    container_name: kenya-ai
+    image: ubuntu:22.04
+    networks:
+    - community-net
+    ports:
+    - 8002:8002
+    volumes:
+    - /home/yethatsjames/community-ai-workspace:/workspace
+version: '3.8'

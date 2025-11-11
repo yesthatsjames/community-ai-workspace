@@ -1,0 +1,40 @@
+# Secrets and sensitive data
+*.key
+*.pem
+.env
+config.json
+passwords.txt
+*credentials*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Large binary files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Large data folders (75GB - too big for git)
+Documents_Version/
+raw_videos/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
